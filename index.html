@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>Consolr</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+        <Style>
+            body{
+                background-color: rgb(255, 145, 0);
+                text-align: center;
+            }
+            #marqueeStyle{
+             background-color: rgb(0, 0, 0);   
+             color: red;
+            }
+            h1{
+            color:red;
+            }
+        </Style>
+         <script>
+            console.log("Hi I am console screen");
+            var first_name="Rudransh";
+            console.log(first_name);
+            var last_name="Kotiyal";
+            console.log(last_name);
+            var full_name=first_name.concat(last_name);
+            console.log(full_name);
+            var length=full_name.length;
+            console.log(length);
+            var name_1="I am Rudransh kotiyal";
+            console.log(name_1);
+            var replace=name_1.replace("kotiyal","Kotiyal");
+            console.log(replace);
+            var capital="RUDRANSH";
+            var lower_case=capital.toLowerCase();
+            console.log(lower_case);
+            var small="kotiyal";
+            var upper_case=small.toUpperCase();
+            console.log(upper_case);
+            var square_root=Math.sqrt(20);
+    console.log(square_root);
+    var max=Math.max(15,30);
+    console.log(max);
+    var min=Math.min(4,20);
+    console.log(min);
+            </script>  
+    </head>
+    <body>
+        <Marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">Open console</Marquee>
+        <h1>Open console</h1>
+        <h2>For fun</h2>
+    </body>
+</html>
